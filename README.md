@@ -1,5 +1,8 @@
 # rebuildmymc
+
 A Python script to run Minecraft Java Edition directly from the .jar file.
+
+This program generates two run scripts. If run fails (usually because no graphics drivers are installed), try run-nogpu.
 
 ## Requirements:
 
