@@ -65,7 +65,7 @@ while not valid:
 valid = False
 clear()
 while not valid:
-    newver = input("Is this version of Minecraft newer than release 1.3.1 (NOT Alpha or Beta)? (y/n) ")
+    newver = input("Is this version of Minecraft release 1.6 or newer (NOT Beta)? (y/n)")
     if newver.lower() in ["y", "n", "yes", "no"]:
         newver = newver[0]
         valid = True
