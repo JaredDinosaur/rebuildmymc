@@ -9,11 +9,12 @@ This program generates two run scripts. If run fails (usually because no graphic
 ## Requirements:
 
 Java JDK and JRE (version 8 or newer) must be fully installed.
-* The portable version does not need this as it has its own JDK folder.
-
-You will need the .jar file for the Minecraft version of your choice.
 
 You will need files from LWJGL.
+
+* The portable version does not need these as it has its own JDK folder and LWJGL files.
+
+You will need the .jar file for the Minecraft version of your choice.
 
 ## Download links
 
