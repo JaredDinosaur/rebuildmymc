@@ -61,15 +61,6 @@ while not valid:
         print("")
         print("File not found!")
 
-# Version compatibility fix
-valid = False
-clear()
-while not valid:
-    newver = input("Is this version of Minecraft release 1.6 or newer (NOT Beta)? (y/n) ")
-    if newver.lower() in ["y", "n", "yes", "no"]:
-        newver = newver[0]
-        valid = True
-
 # Check that LWJGL files exist
 clear()
 if osname == "Windows":
@@ -105,10 +96,7 @@ else:
 # Write project info to manifest
 manifest = open("MANIFEST.MF", "w")
 manifest.write("Manifest-Version: 1.0\n")
-if newver == "n":
-    manifest.write("Main-Class: net.minecraft.client.Minecraft\n")
-else:
-    manifest.write("Main-Class: net.minecraft.client.main.Main\n")
+manifest.write("Main-Class: net.minecraft.client.Minecraft\n")
 manifest.close()
 
 # Build .jar
