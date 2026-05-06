@@ -2,6 +2,8 @@
 
 A Python script to run Minecraft Java Edition directly from the .jar file.
 
+This script does NOT work with Minecraft 1.6 or newer! All alpha, beta, etc. versions and releases up to 1.5.2 are fine.
+
 This program generates two run scripts. If run fails (usually because no graphics drivers are installed), try run-nogpu.
 
 ## Requirements:
@@ -46,11 +48,3 @@ You will need files from LWJGL.
 [1.4](https://omniarchive.uk/archive/java/client/release/1.4/)
 
 [1.5](https://omniarchive.uk/archive/java/client/release/1.5/)
-
-[1.6](https://omniarchive.uk/archive/java/client/release/1.6/)
-
-[1.7](https://omniarchive.uk/archive/java/client/release/1.7/)
-
-[1.8](https://omniarchive.uk/archive/java/client/release/1.8/)
-
-[1.12](https://omniarchive.uk/archive/java/client/release/1.12/)
