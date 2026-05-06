@@ -122,12 +122,12 @@ run.write("java -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true -Djava.libra
 run.close()
 
 run = open("run.sh", "w")
-run.write("#!/bin/bash")
+run.write("#!/bin/bash\n")
 run.write("java -Djava.library.path=../natives -jar ../minecraft.jar\n")
 run.close()
 
 run = open("run-nogpu.sh", "w")
-run.write("#!/bin/bash")
+run.write("#!/bin/bash\n")
 run.write("java -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true -Djava.library.path=../natives -jar ../minecraft.jar\n")
 run.close()
 
