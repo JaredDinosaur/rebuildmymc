@@ -12,7 +12,9 @@ Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) 
 
 ## Requirements:
 
-Java JDK and JRE (version 8 or newer) must be fully installed.
+Java JDK and JRE must be fully installed.
+
+If your OS does not allow you to install both, only install JDK.
 
 You will need files from LWJGL.
 
