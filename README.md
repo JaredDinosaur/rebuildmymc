@@ -6,6 +6,8 @@ This script does NOT work with Minecraft 1.6 or newer! All alpha, beta, etc. ver
 
 This program generates two run scripts. If run fails (usually because no graphics drivers are installed), try run-nogpu.
 
+Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) for the portable JDK/JRE environment.
+
 ## Requirements:
 
 Java JDK and JRE (version 8 or newer) must be fully installed.
