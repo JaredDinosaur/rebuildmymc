@@ -6,7 +6,7 @@ This script does NOT work with Minecraft 1.6 or newer! All alpha, beta, etc. ver
 
 Minecraft 1.3.1 or newer may have issues running on Linux! All alpha, beta, etc. versions and releases up to 1.3 are fine.
 
-This program generates two run scripts. If run fails (usually because no graphics drivers are installed), try run-nogpu.
+This program generates two run scripts (.cmd for Windows and .sh for Linux/macOS). If `run` fails (usually because no graphics drivers are installed), try `run-nogpu`.
 
 Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) for the portable JDK/JRE environment.
 
