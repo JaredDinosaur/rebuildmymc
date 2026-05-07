@@ -40,7 +40,7 @@ You will need the .jar file for the Minecraft version of your choice.
 
 ### Releases
 
-[1.0](https://omniarchive.uk/archive/java/client/release/1.0.0/https://omniarchive.uk/archive/java/client/release/1.0.0/)
+[1.0](https://omniarchive.uk/archive/java/client/release/1.0.0/)
 
 [1.1](https://omniarchive.uk/archive/java/client/release/1.1/)
 
