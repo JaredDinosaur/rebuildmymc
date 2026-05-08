@@ -6,7 +6,7 @@ This program generates two run scripts (.cmd for Windows and .sh for Linux/macOS
 
 Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) for the portable JDK/JRE environment.
 
-## Requirements:
+## Requirements
 
 Java JDK and JRE must be fully installed.
 
