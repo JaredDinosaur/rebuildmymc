@@ -20,13 +20,18 @@ You will need the .jar file for the Minecraft version of your choice.
 
 ## Compatibility
 
-OS | Minecraft Version | Normal script | Portable script
+OS | Minecraft Version | Main script | Portable script
 --- | --- | --- | ---
 Any | 1.6 or newer | No | No
-Windows (XP or newer) | 1.3.1 to 1.5.2 | Yes | Yes
-Windows (XP or newer) | 1.3 or earlier | Yes | Yes
-Linux | 1.3.1 to 1.5.2 | Limited | No
-Linux | 1.3 or earlier | Yes | No
+Windows 11 | 1.3.1 to 1.5.2 | Yes | Yes
+Windows 11 | 1.3 or earlier | Yes | Yes
+Windows XP to 10 | 1.3.1 to 1.5.2 | Limited | Limited
+Windows XP to 10 | 1.3 or earlier | Yes | Yes
+Ubuntu | 1.3.1 to 1.5.2 | Yes | No
+Debian | 1.3.1 to 1.5.2 | Yes | No
+Fedora | 1.3.1 to 1.5.2 | Yes | No
+Other Linux | 1.3.1 to 1.5.2 | Limited | No
+Linux (any) | 1.3 or earlier | Yes | No
 macOS | 1.3.1 to 1.5.2 | Limited | No
 macOS | 1.3 or earlier | Yes | No
 
