@@ -2,10 +2,6 @@
 
 A Python script to run Minecraft Java Edition directly from the .jar file.
 
-This script does NOT work with Minecraft 1.6 or newer! All alpha, beta, etc. versions, and releases up to 1.5.2, are fine.
-
-Minecraft 1.3.1 or newer may have issues running on Linux and macOS! All alpha, beta, etc. versions, and releases up to 1.3, are fine.
-
 This program generates two run scripts (.cmd for Windows and .sh for Linux/macOS). If `run` fails (usually because no graphics drivers are installed), try `run-nogpu`.
 
 Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) for the portable JDK/JRE environment.
@@ -21,6 +17,18 @@ You will need files from LWJGL.
 * The portable version does not need these as it has its own JDK folder and LWJGL files.
 
 You will need the .jar file for the Minecraft version of your choice.
+
+## Compatibility
+
+OS | Minecraft Version | Normal script | Portable script
+--- | --- | --- | ---
+Any | 1.6 or newer | No | No
+Windows (XP or newer) | 1.3.1 to 1.5.2 | Yes | Yes
+Windows (XP or newer) | 1.3 or earlier | Yes | Yes
+Linux | 1.3.1 to 1.5.2 | Limited | No
+Linux | 1.3 or earlier | Yes | No
+macOS | 1.3.1 to 1.5.2 | Limited | No
+macOS | 1.3 or earlier | Yes | No
 
 ## Download links
 
