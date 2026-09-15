@@ -14,6 +14,7 @@ You will need files from LWJGL.
 > [!IMPORTANT]
 > The portable version has its own JDK and LWJGL files.\
 > If you are using the portable version, the previous two requirements may be ignored.
+
 You will need the .jar file for the Minecraft version of your choice.
 
 ## Compatibility
