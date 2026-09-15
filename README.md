@@ -5,6 +5,7 @@ A Python script to run Minecraft Java Edition directly from the .jar file.
 > The file names will end in .cmd for Windows and .sh for Linux/macOS.\
 > If the `run` script fails, this is usually because no graphics drivers are installed.\
 > This can be bypassed by using the `run-nogpu` script instead.
+
 Credit to [SchmollerLab](https://github.com/SchmollerLab/java_portable_windows) for the portable JDK/JRE environment.
 
 ## Requirements
